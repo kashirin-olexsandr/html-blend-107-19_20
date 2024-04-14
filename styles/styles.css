@@ -41,7 +41,8 @@ img {
 
 /* header */
 .header {
-  background-color: rgb(91, 85, 85);
+  position: absolute;
+  width: 100%;
 }
 
 .header .container {
@@ -81,10 +82,14 @@ img {
 
 /* -----------HERO-------------- */
 .hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 280px 0;
   text-align: center;
 }
-
 
 .hero-text {
   margin-bottom: 24px;
@@ -155,7 +160,6 @@ img {
   color: #fff;
 }
 
-
 /* business cases */
 
 .cases-wrap {
@@ -206,17 +210,17 @@ img {
 }
 .post-date {
   font-weight: 400;
-    font-size: 20px;
-    line-height: 1.65;
-    color: #fff;
-    margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #fff;
+  margin-bottom: 8px;
 }
 .post-title {
   font-weight: 300;
-    font-size: 38px;
-    line-height: 1.26;
-    color: #fff;
-    margin-bottom: 24px;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #fff;
+  margin-bottom: 24px;
 }
 .post-text {
   font-weight: 400;
@@ -278,7 +282,6 @@ img {
 }
 
 .team-member {
-
 }
 
 .member-name {
